@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.app.waytogo"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        // Enabling multidex support.
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    useLibrary 'org.apache.http.legacy'
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.google.android.gms:play-services:8.4.0'
+    compile 'com.mikhaellopez:circularimageview:3.0.1'
+    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
+    compile 'com.stripe:stripe-android:+'
+    compile 'com.android.support:design:23.1.1'
+    compile('com.github.afollestad.material-dialogs:commons:0.8.5.4@aar') {
+        transitive = true
+    }
+    compile 'org.apache.httpcomponents:httpcore:4.0-beta3'
+    compile project(':lib_credit_card_entry')
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.android.support:multidex:1.0.0'
+    compile files('libs/android-async-http-1.4.4.jar')
+    compile project(':FacebookSDK')
+    compile files('libs/httpmime-4.1.2.jar')
+    compile project(':lib_sticky_listview')
+
+}

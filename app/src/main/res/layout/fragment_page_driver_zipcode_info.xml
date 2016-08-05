@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_profile_bg"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <EditText
+        android:id="@+id/edt_zipcode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_edittext_bg"
+        android:hint="@string/edt_zipcode"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLength="5"
+        android:lines="1"
+        android:padding="5dp"
+        android:saveEnabled="false" />
+
+    <TextView
+        android:id="@+id/tv_disclosure_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_zipcode"
+        android:layout_marginTop="15dp"
+        android:text="@string/tv_disclosure_title"
+        android:textColor="@color/tv_label"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cb_agree"
+        android:layout_below="@+id/tv_disclosure_title"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/tv_disclosure"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_disclosure"
+            android:textColor="@color/tv_label"
+            android:textSize="16sp" />
+    </ScrollView>
+
+    <CheckedTextView
+        android:id="@+id/cb_agree"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_next"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:checked="false"
+        android:clickable="true"
+        android:drawableLeft="?android:attr/listChoiceIndicatorMultiple"
+        android:drawableStart="?android:attr/listChoiceIndicatorMultiple"
+        android:gravity="center_vertical"
+        android:hint="@string/cb_agree"
+        android:textColor="@color/tv_label" />
+
+    <ImageButton
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="15dp"
+        android:background="@null"
+        android:contentDescription="@string/strphonelogin"
+        android:src="@drawable/ic_btn_next" />
+
+</RelativeLayout>

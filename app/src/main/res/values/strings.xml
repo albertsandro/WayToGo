@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WayToGo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="country_code">SE</string>
+    <string name="action_gift">Share</string>
+    <string name="action_steeringwheel_inactive">Driver status pending</string>
+    <string name="action_steeringwheel_active">Driver activated</string>
+    <string name="action_search">Search Restaurants</string>
+    <string name="action_cancel">Cancel Trip</string>
+    <string name="overflow">Overflow</string>
+
+    <!-- API keys -->
+    <string name="google_map_key">AIzaSyCPwk91qJXvCFn85WBT0Tdf0qHBuRtVlnw</string>
+    <string name="facebook_app_id">297404737096624</string>
+
+    <!-- navigation -->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_home">Home</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>Home</item>
+        <item>Payment</item>
+        <item>Drive for Ride</item>
+        <item>Invite</item>
+        <item>Settings</item>
+        <item>Log out</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_payment</item>
+        <item>@drawable/ic_car</item>
+        <item>@drawable/ic_invite</item>
+        <item>@drawable/ic_settings</item>
+        <item>@drawable/ic_logout</item>
+    </array>
+
+    <string-array name="driver_cities">
+        <item>Select your City</item>
+        <item>San Francisco, California</item>
+        <item>San Jose, California</item>
+        <item>San Francisco Bay Area</item>
+        <item>Los Angeles, CA</item>
+        <item>Dallas, Texas</item>
+        <item>Houston, Texas</item>
+        <item>Austin, Texas</item>
+        <item>More cities coming soon!</item>
+    </string-array>
+    
+    <string-array name="bank_name">
+        <item>Select your Bank</item>
+        <item>Bank of America</item>
+        <item>Wells Fargo</item>
+        <item>Citibank</item>
+        <item>Chase Bank</item>
+        <item>Bank of the West</item>
+    </string-array>
+    <!-- Hint -->
+    <string name="strlogoimage">Logo image</string>
+    <string name="strfblogin">Facebook login button</string>
+    <string name="strphonelogin">Phone number login button</string>
+    <string name="strConfirmPickup">Source location confirmation</string>
+    <string name="strphoneverify">Button to verify phone number</string>
+    <string name="strloginhint">Verification code sent to</string>
+    <string name="edt_from_address">From Address</string>
+    <string name="edt_to_address">Destination Address</string>
+    <string name="edt_fname">First name</string>
+    <string name="edt_lname">Last name</string>
+    <string name="edt_email">Email address</string>
+    <string name="edt_zipcode">Zipcode</string>
+    <string name="edt_full_name">Legal Full Name</string>
+    <string name="edt_security_number">Social Security Number</string>
+    <string name="edt_dob">Date of Birth</string>
+    <string name="edt_license_number">Driver\'s License Number</string>
+    <string name="tv_profile_pic_title">Is the picture above the one you wish to send to us?</string>
+    <string name="tv_vehicle_registration">Vehicle Registration</string>
+    <string name="tv_vehicle_insurance">Vehicle Insurance</string>
+    <string name="edt_licence_plate_number">Licence Plate Number</string>
+    <string name="edt_vehicle_type">Type of Vehicle</string>
+    <string name="edt_weight">Weight (lbs)</string>
+    <string name="edt_search">Include any relevant notes to the driver (apartment #, building name, driving instructions, etc)</string>
+    <string name="edt_paypal">PayPal E-Mail Address</string>
+    <string name="edt_routing">Routing Number</string>
+    <string name="edt_account">Account Number</string>
+
+    <!-- login -->
+    <string name="tv_caption">Logga in for battre, sakrare och\nbilligare transport an vanlig Taxi</string>
+    <string name="tv_terms">Terms</string>
+    <string name="tv_help">Help</string>
+    <string name="tv_phone_login">Enter your phone number</string>
+    <string name="tv_phone_verification">Verify your mobile number</string>
+    <string name="edt_number">Mobile Number</string>
+    <string name="edt_code">Enter the verification code</string>
+
+    <!-- dialog -->
+    <string name="title">Network connection error</string>
+    <string name="message">Check your internet connection.</string>
+    <string name="strgpsmessage">Your GPS seems to be disabled, do you want to enable it?</string>
+    <string name="stryes">YES</string>
+    <string name="strno">NO</string>
+    <string name="strok">OK</string>
+    <string name="strcancel">Cancel</string>
+    <string name="strreport">Report</string>
+    <string name="strsamelocation">Woops! both source location and destination location cannot be the same.</string>
+    <string name="strnodriver">We couldn\'t find any drivers at the moment.. Please try again later</string>
+    <string name="strgotit">OK, got it!</string>
+    <string name="strvehicleregistrationalert">We require you to upload a picture of your vehicle registration. If you\'re driving a renta car, a picture of the rental agreement is sufficient.</string>
+    <string name="strvehicleinsurancealert">We require you to upload a picture fo your insurance policy card. The card must show vehicle VIN, make &amp; year. If you\'re driving a rental car, you must attach a picture of the rental car insurance.</string>
+    <string name="strdriveralert">Please allow 3 - 5 business days to process your application.</string>
+    <string name="strdriverconfirm">Your application has been approved. Please tap the steering wheel that is located on the upper right corner and start driving today!</string>
+    <string name="strdriverArrivedConfirmation">Are you sure that you want to mark this ride as picked up?</string>
+    <string name="strdriverFoodConfirmation">Are you sure you got the right items that the user requested?</string>
+    <string name="strdriverCompleteConfirmation">Is the Ride Completed?</string>
+    <string name="strreporttitle">Report the driver</string>
+    <string name="strreportmessage">Are you sure you want to report the driver? This report will be followed up on with one of our specalists.</string>
+    <string name="strnegativebalance">You won\'t be allowed to book another trip until you\'ve cleared your balance: %1$s. Please contact support@rideapp.us for more information on how to clear this.</string>
+    <string name="strdriveretatitle">Driver is closer than: %1$s mi aount of miles from you.</string>
+    <string name="strdriveretamessage">The drivers name is: %1$s and he/she will be arriving in a %2$s, license plate: %3$s.</string>
+    <string name="strcredicard">Please add a creditcard for your order. Cash is only available when you request a Ride</string>
+    <string name="strcouriercashalert">Cash is not available for Courier</string>
+    <string name="strTripCancel">Hello! This trip is cancelled. Thank you.</string>
+    <string name="strnofooddriver">No food delivery drivers found at the moment, please try again later. Your card was not charged</string>
+    <string name="strhelpmessage">For help or questions please contact support@rideapp.us</string>
+    <string name="strdeletetripmessage">Are you sure to cancel the trip?</string>
+    <string name="strlogoutMessage">Are you sure to logout?</string>
+
+    <!-- Toast -->
+    <string name="strShare">I love Ride. They offer cheaper rides that Uber Lyft or Sidecar! Try it out for yourself: https://rideapp.us/download/</string>
+    <string name="strVerificationSuccess">Thank you for verifying your phonenumber</string>
+    <string name="strFnameEmpty">Enter your First name</string>
+    <string name="strLnameEmpty">Enter your Last name</string>
+    <string name="strEmailEmpty">Enter your Email-id</string>
+    <string name="strEmailInvalid">Invalid Email-id</string>
+    <string name="strAcceptTerms">Accept our terms and conditions</string>
+    <string name="strRegisterSuccess">User registered successfully</string>
+    <string name="strSourceLocationEmpty">Source location is empty</string>
+    <string name="strDestinationLocationEmpty">Destination location is empty</string>
+    <string name="strZipcodeEmpty">Enter the Zipcode</string>
+    <string name="strAcceptDiscolsure">Accept the Disclosure and Authorization</string>
+    <string name="strFullNameEmpty">Enter your legal full name</string>
+    <string name="strDOBEmpty">Enter your Date of birth</string>
+    <string name="strLicenseNumberEmpty">Enter the license plate number</string>
+    <string name="strVehicleTypeEmpty">Enter the vehicle type</string>
+    <string name="strRegistrationEmpty">Upload the registration image</string>
+    <string name="strLicenseEmpty">Upload the license image</string>
+    <string name="strRestaurantEmpty">Enter the Restaurant name</string>
+    <string name="strAddCart">Please go back and add some items before checking out...</string>
+    <string name="strCardRegisteredSuccess">Card Registered successfully</string>
+    <string name="strinvalidemail">Please Enter Valid Email Address.</string>
+    <string name="strroutingempty">Please Enter the Routing number.</string>
+    <string name="straccountempty">Please Enter the Account number.</string>
+    <string name="strbankempty">Please don\'t forget to select your bank.</string>
+    <string name="strpaypalsuccess">Thank you for successfully submitting your payout details.</string>
+    <string name="strbanksuccess">Thank you for successfully submitting your bank account details.</string>
+    <string name="strnofood">Food is not yet available in Sweden. Hold your eyes open!</string>
+    
+    <!-- label -->
+    <string name="btn_pick">Set pickup</string>
+    <string name="btn_destination">Set Destination</string>
+    <string name="tv_from">From:</string>
+    <string name="tv_to">To:</string>
+    <string name="tv_pick_from">Pickup From:</string>
+    <string name="tv_food_to">Deliver To:</string>
+    <string name="cb_terms">Agree to terms</string>
+    <string name="tv_take_picture">Take Picture</string>
+    <string name="tv_upload_picture">Upload Picture</string>
+    <string name="tv_pick_location">CONFIRM PICKUP LOCATION</string>
+    <string name="tv_uber_label">Lyft / Uber</string>
+    <string name="tv_profit_label">Thats right!\nNothing is taken out\nfrom your profit</string>
+    <string name="edt_referral">Referral code (optional)</string>
+    <string name="tv_disclosure_title">Disclosure and authorization</string>
+    <string name="cb_agree">I consent, authorize, agree and have reviewed and understood</string>
+    <string name="tv_vehicle_pic_title">Once last thing..</string>
+    <string name="tv_vehicle_pic">A picture of your vechicle</string>
+    <string name="strUploaded">Uploaded successfully</string>
+    <string name="tv_waiting_driver">Waiting for the driver</string>
+    <string name="tv_cancel_driver">Tap to cancel</string>
+    <string name="tv_tap_accept">Tap to accept</string>
+    <string name="btn_arrived">Tap if arrived</string>
+    <string name="btn_complete">Tap if complete</string>
+    <string name="tv_payment_title">CASH PAYMENT</string>
+    <string name="tv_payment_snippet">Please ask the user to pay before the proceeding</string>
+    <string name="tv_payment_continue">Continue</string>
+    <string name="tv_payment_tap_continue">Tap to continue</string>
+    <string name="tv_completed_title">Completed Trip!</string>
+    <string name="tv_earnings">Earnings: #12.50</string>
+    <string name="tv_earnings_total">Total: $755.80</string>
+    <string name="tv_complete_tap_continue">Tap to continue</string>
+    <string name="tv_receipt">Receipt</string>
+    <string name="tv_report_driver">Report Driver</string>
+    <string name="tv_tips">Tips &amp; Donations included</string>
+    <string name="tv_worst">Worst</string>
+    <string name="tv_best">Best</string>
+    <string name="tv_drivers_eta">DRIVERS ETA</string>
+    <string name="tv_call_driver">CALL THE DRIVER</string>
+    <string name="tv_text_driver">TEXT THE DRIVER</string>
+    <string name="tv_cancel_trip">CANCEL TRIP\t\t$5.00 FEE</string>
+    <string name="tv_courier_photo_title">What would you like to send?</string>
+    <string name="btn_retake_photo">Retake photo</string>
+    <string name="tv_estimated_weight">Enter the estimated weight</string>
+    <string name="tv_payment_method">Payment method</string>
+    <string name="tv_ship_item">Would like to ship an item</string>
+    <string name="tv_item_label">Item:</string>
+    <string name="tv_cost_label">Cost:</string>
+    <string name="tv_quantity_label">Quantity:</string>
+    <string name="tv_qty_label">Qty:</string>
+    <string name="tv_del_label">Del:</string>
+    <string name="tv_spl_instructions_label">Special Instructions:</string>
+    <string name="tv_subtotal_label">Subtotal:</string>
+    <string name="tv_tax_label">Tax:</string>
+    <string name="tv_tip_label">Tip:</string>
+    <string name="tv_delivery_charge_label">Delivery charge:</string>
+    <string name="tv_total_label">Total:</string>
+    <string name="btn_pay">Pay</string>
+    <string name="tv_no_card_registered">No card registered</string>
+    <string name="tv_default">Default</string>
+    <string name="tv_add_payment">Add payment method</string>
+    <string name="tv_card">Card</string>
+    <string name="tv_payment_options">Paypal, Android Pay &amp; Bitcoin coming soon..</string>
+    <string name="tv_card_register">Card</string>
+    <string name="btn_drop_off">Ready to drop-off!</string>
+    <string name="btn_payout_settings">Payout Settings</string>
+    <string name="tv_current_earnings_label">CURRENT EARNINGS</string>
+    <string name="tv_paypal_pay">SETUP PAYPAL PAYOUT</string>
+    <string name="tv_direct_pay">SETUP DIRECT DEPOSIT</string>
+    <string name="tv_terms_text">These Terms of Use ("Terms") govern the access or use by you, an individual, from within the United States and its territories and possessions of applications, websites, content, products, and services (the "Services") made available in the United States and its territories and possessions by WayToGo Technologies, Inc. and its subsidiaries and affiliates (collectively, “WayToGo").\n
+
+PLEASE READ THESE TERMS CAREFULLY BEFORE ACCESSING OR USING THE SERVICES. In this Agreement, the words "including" and "include" mean "including, but not limited to."\n
+
+Your access and use of the Services constitutes your agreement to be bound by these Terms, which establishes a contractual relationship between you and WayToGo. If you do not agree to these Terms, you may not access or use the Services. These Terms expressly supersede prior agreements or arrangements with you. WayToGo may immediately terminate these Terms or any Services with respect to you, or generally cease offering or deny access to the Services or any portion thereof, at any time for any reason.\n
+
+Supplemental terms may apply to certain Services, such as policies for a particular event, activity or promotion, and such supplemental terms will be disclosed to you in connection with the applicable Services. Supplemental terms are in addition to, and shall be deemed a part of, the Terms for the purposes of the applicable Services. Supplemental terms shall prevail over these Terms in the event of a conflict with respect to the applicable Services.\n
+
+WayToGo may amend the Terms related to the Services from time to time. Amendments will be effective upon WayToGo\'s posting of such updated Terms at this location or the amended policies or supplemental terms on the applicable Service.\n
+
+THE SERVICES\n
+
+The actual Services constitute a technology platform that permits users of WayToGo\'s cellular applications or websites provided within the Services (each, an "Application") to set up and schedule transportation and/or logistics services with 3rd party providers of such products and services, including independent third celebration transportation providers and 3rd party logistics providers under arrangement with WayToGo or certain of WayToGo\'s subsidiaries ("Third Get together Providers"). Unless otherwise agreed by WayToGo in a very separate written agreement with you, the Services are made available solely for your personal, noncommercial use. YOU ACKNOWLEDGE THAT WayToGo DOES NOT PROVIDE TRANSPORTATION OR LOGISTICS SERVICES OR WORK AS A TRANSPORTATION CARRIER. WayToGo\'S SERVICES CAN BE UTILISED BY YOU TO OBTAIN AND SCHEDULE TRANSPORTATION OR PERHAPS LOGISTICS SERVICES WITH VACATION PROVIDERS, BUT YOU AGREE THAT WayToGo DOES NOT HAVE ANY RESPONSIBILITY OR LIABILITY FOR YOUR REQUIREMENTS RELATED TO ANY TRANSPORT OR LOGISTICS PROVIDED FOR YOUR REQUIREMENTS BY THIRD PARTY PROVIDERS BY USING THE SERVICES OTHER THAN AS EXPRESSLY SET FORTH IN THESE TERMS.\n
+
+WayToGo DOES NOT GUARANTEE THE SUITABILITY, SAFETY OR ABILITY OF VACATION PROVIDERS. IT IS SOLELY YOUR OWN RESPONSIBILITY TO DETERMINE IF AN UNAUTHORISED PROVIDER WILL MEET YOUR NEEDS AND EXPECTATIONS. WayToGo WILL NOT ENGAGE IN DISPUTES BETWEEN YOU AND AN UNAUTHORISED PROVIDER. BY USING YOUR SERVICES, YOU ACKNOWLEDGE THAT YOU MIGHT BE EXPOSED TO SITUATIONS INVOLVING VACATION PROVIDERS THAT ARE POSSIBLY UNSAFE, OFFENSIVE, HARMFUL FOR YOU TO MINORS, OR OTHERWISE OBJECTIONABLE, UNDERSTANDING THAT USE OF THIRD GATHERING PROVIDERS ARRANGED OR SCHEDULED WHILE USING SERVICES IS AT YOUR INDIVIDUAL RISK AND JUDGMENT. WayToGo SHALL NOT HAVE ANY LIABILITY ARISING FROM OR AT ALL RELATED TO YOUR DEALS OR RELATIONSHIP WITH VACATION PROVIDERS.\n
+
+LICENSE\n
+
+Subject to your compliance with these Terms, WayToGo grants you a limited, non-exclusive, non- sublicensable, revocable, non-transferrable license to: (i) access and use the Applications on your personal device solely in connection with your use of the Services; and (ii) access and use any content, information and related materials that may be made available through the Services, in each case solely for your personal, noncommercial use. Any rights not expressly granted herein are reserved by WayToGo and WayToGo\'s licensors.\n
+
+RESTRICTIONS\n
+
+You may not: (i) remove any copyright, trademark or other proprietary notices from any portion of the Services; (ii) reproduce, modify, prepare derivative works based upon, distribute, license, lease, sell, resell, transfer, publicly display, publicly perform, transmit, stream, broadcast or otherwise exploit the Services except as expressly permitted by WayToGo; (iii) decompile, reverse engineer or disassemble the Services except as may be permitted by applicable law; (iv) link to, mirror or frame any portion of the Services; (v) cause or launch any programs or scripts for the purpose of scraping, indexing, surveying, or otherwise data mining any portion of the Services or unduly burdening or hindering the operation and/or functionality of any aspect of the Services; or (vi) attempt to gain unauthorized access to or impair any aspect of the Services or its related systems or networks.\n
+
+OWNERSHIP\n
+
+The Services and all rights therein are and shall remain WayToGo\'s property or the property of WayToGo\'s licensors. Neither these Terms nor your use of the Services convey or grant to you any rights: (i) in or related to the Services except for the limited license granted above; or (ii) to use or reference in any manner WayToGo\'s company names, logos, product and service names, trademarks or services marks or those of WayToGo\'s licensor.\n
+
+YOUR USE OF THE SERVICES\n
+
+USER ACCOUNTS\n
+
+In order to use most aspects of the Services, you must register for and maintain an active personal user Services account ("Account"). You must be at least 18 years of age, or the age of legal majority in your jurisdiction (if different than 18), to obtain an Account. Account registration requires you to submit to WayToGo certain personal information, such as your name, address, mobile phone number and age, as well as at least one valid credit card. You agree to maintain accurate, complete, and up-to-date information in your Account. Your failure to maintain accurate, complete, and up-to-date Account information, including having an invalid or expired credit card on file, may result in your inability to access and use the Services or WayToGo\'s termination of this Agreement with you. You are responsible for all activity that occurs under your Account, and, as such, you agree to maintain the security and secrecy of your Account username and password at all times. Unless otherwise permitted by WayToGo in writing, you may only possess one Account.\n
+
+USER REQUIREMENTS AND CONDUCT\n
+
+The Service is not available for use by persons under the age of 18. You may not authorize third parties to use your Account, and you may not allow persons under the age of 18 to receive transportation or logistics services from Third Party Providers unless they are accompanied by you. You may not assign or otherwise transfer your Account to any other person or entity. You agree to comply with all applicable laws when using the Services, and you may only use the Services for lawful purposes (e.g., no transport of unlawful or hazardous materials). You will not in your use of the Services cause nuisance, annoyance, inconvenience, or property damage, whether to the Third Party Provider or any other party. In certain instances WayToGo may require you to provide proof of identity to access or use the Services, and you agree that you may be denied access or use of the Services if you refuse to provide proof of identity.\n
+
+PROMOTIONAL CODES\n
+
+WayToGo may, in WayToGo\'s sole discretion, create promotional codes that may be redeemed for Account credit or other features or benefits related to a Third Party Provider\'s services, subject to terms that WayToGo establish on a per promotional code basis ("Promo Codes"). You agree that Promo Codes: (i) must be used for the intended audience and purpose, and in a lawful manner; (ii) may not be duplicated, sold or transferred in any manner, or made available to the general public, unless expressly permitted by WayToGo; (iii) may be disabled by WayToGo at any time for any reason without liability to WayToGo; (iv) may only be used pursuant to the specific terms that WayToGo establish for such Promo Code; (v) are not valid for cash; and (vi) may expire prior to your use. WayToGo reserves the right to withhold or deduct credits or other features or benefits obtained through the use of Promo Codes by you or any other user in the event that WayToGo determines or believes that the use or redemption of the Promo Code was in error, fraudulent, illegal, or in violation of the applicable Promo Code terms or these Terms.\n
+
+USER PROVIDED CONTENT\n
+
+WayToGo may, in WayToGo\'s sole discretion, permit you from time to time to submit, upload, publish or otherwise make available to WayToGo through the Services textual, audio, and/or visual content and information, including commentary and feedback related to the Services, initiation of support requests, and submission of entries for competitions and promotions ("User Content"). Any User Content provided by you remains your property. However, by providing User Content to WayToGo, you grant WayToGo a worldwide, perpetual, irrevocable, transferrable, royalty-free license, with the right to sublicense, to use, copy, modify, create derivative works of, distribute, publicly display, publicly perform, and otherwise exploit in any manner such User Content in all formats and distribution channels now known or hereafter devised (including in connection with the Services and WayToGo\'s business and on third- party sites and services), without further notice to or consent from you, and without the requirement of payment to you or any other person or entity.\n
+
+You represent and warrant that: (i) you either are the sole and exclusive owner of all User Content or you have all rights, licenses, consents and releases necessary to grant WayToGo the license to the User Content as set forth above; and (ii) neither the User Content nor your submission, uploading, publishing or otherwise making available of such User Content nor WayToGo\'s use of the User Content as permitted herein will infringe, misappropriate or violate a third party\'s intellectual property or proprietary rights, or rights of publicity or privacy, or result in the violation of any applicable law or regulation.\n
+
+You agree to not provide User Content that is defamatory, libelous, hateful, violent, obscene, pornographic, unlawful, or otherwise offensive, as determined by WayToGo in its sole discretion, whether or not such material may be protected by law. WayToGo may, but shall not be obligated to, review, monitor, or remove User Content, at WayToGo\'s sole discretion and at any time and for any reason, without notice to you.\n
+
+NETWORK ACCESS AND DEVICES\n
+
+You are responsible for obtaining the data network access necessary to use the Services. Your mobile network\'s data and messaging rates and fees may apply if you access or use the Services from a wireless-enabled device. You are responsible for acquiring and updating compatible hardware or devices necessary to access and use the Services and Applications and any updates thereto. WayToGo does not guarantee that the Services, or any portion thereof, will function on any particular hardware or devices. In addition, the Services may be subject to malfunctions and delays inherent in the use of the Internet and electronic communications.\n
+
+PAYMENT\n
+
+You understand that use of the Services may result in payments by you for the services you receive from a Third Party Provider ("Charges"). After you have received services obtained through your use of the Service, WayToGo will facilitate payment of the applicable Charges on behalf of the Third Party Provider, as such Third Party Provider\'s limited payment collection agent, using the preferred payment method designated in your Account, and will send you a receipt by email. Payment of the Charges in such manner shall be considered the same as payment made directly by you to the Third Party Provider. Charges will be inclusive of applicable taxes where required by law. Charges paid by you are final and non-refundable, unless otherwise determined by WayToGo. You retain the right to request lower Charges from a Third Party Provider for services received by you from such Third Party Provider at the time you receive such services. WayToGo will respond accordingly to any request from a Third Party Provider to modify the Charges for a particular service.\n
+
+All Charges are due immediately and payment will be facilitated by WayToGo using the preferred payment method designated in your Account. If your primary Account payment method is determined to be expired, invalid or otherwise not able to be charged, you agree that WayToGo may, as the Third Party Provider\'s limited payment collection agent, use a secondary payment method in your Account, if available.\n
+
+WayToGo reserves the right to establish, remove and/or revise Charges for any or all aspects of the Services at any time in WayToGo\'s sole discretion. Further, you acknowledge and agree that Charges applicable in certain geographical areas may increase substantially during times of high demand of the Services. WayToGo will use reasonable efforts to inform you of Charges that may apply, provided that you will be responsible for Charges incurred under your Account regardless of your awareness of such Charges or the amounts thereof. WayToGo may from time to time provide certain users with promotional offers and discounts that may result in different Charges for the same or similar Services, and you agree that such promotional offers and discounts, unles also made available to you, shall have no bearing on your use of the Services or the Charges applied to you. You may elect to cancel your request for Services from a Third Party Provider at any time prior to such Third Party Provider\'s arrival, in which case you may be charged a cancellation fee.\n
+
+This payment structure is intended to fully compensate the Third Party Provider for the services provided. Except with respect to taxicab transportation services requested through the Application, WayToGo does not designate any portion of your payment as a tip or gratuity to the Third Party Provider. Any representation by WayToGo (on WayToGo\'s website, in the Application, or in WayToGo\'s marketing materials) to the effect that tipping is "voluntary," "not required," and/or "included" in the payments you make for services provided is not intended to suggest that WayToGo provides any additional amounts, beyond those described above, to the Third Party Provider. You understand and agree that, while you are free to provide additional payment as a gratuity to any Third Party Provider who provides you with services obtained through the Service, you are under no obligation to do so. Gratuities are voluntary. After you have received services obtained through the Service, you will have the opportunity to rate your experience and leave additional feedback about your Third Party Provider. In the event you feel unwelcome pressure to provide a gratuity, you may factor that experience into the rating or additional feedback you give.\n
+
+REPAIR OR CLEANING FEES\n
+
+You shall be responsible for the cost of repair for damage to, or necessary cleaning of, Third Party Provider vehicles and property resulting from your use of the Services in excess of normal "wear and tear" damages and necessary cleaning ("Repair or Cleaning"). In the event that a Third Party Provider reports the need for Repair or Cleaning, and such Repair or Cleaning request is verified by WayToGo in WayToGo\'s reasonable discretion, WayToGo reserves the right to facilitate payment for the reasonable cost of such Repair or Cleaning on behalf of the Third Party Provider using your preferred payment method designated in your Account. Such amounts will be transferred by WayToGo to the applicable Third Party Provider and are non-refundable.\n
+
+DISCLAIMERS; LIMITATION OF LIABILITY; INDEMNITY\n
+
+DISCLAIMER\n
+
+THE SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE." WayToGo DISCLAIMS ALL REPRESENTATIONS AND WARRANTIES, EXPRESS, IMPLIED, OR STATUTORY, NOT EXPRESSLY SET OUT IN THESE TERMS, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN ADDITION, WayToGo MAKES NO REPRESENTATION, WARRANTY, OR GUARANTEE REGARDING THE RELIABILITY, TIMELINESS, QUALITY, SUITABILITY, OR AVAILABILITY OF THE SERVICES OR ANY GOODS OR SERVICES OBTAINED THROUGH THE USE OF THE SERVICES, OR THAT THE SERVICES WILL BE UNINTERRUPTED OR ERROR-FREE. YOU AGREE THAT THE ENTIRE RISK ARISING OUT OF YOUR USE OF THE SERVICES, AND ANY THIRD PARTY GOOD OR SERVICES OBTAINED IN CONNECTION THEREWITH, REMAINS SOLELY WITH YOU, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW.\n
+
+THIS DISCLAIMER DOES NOT ALTER YOUR RIGHTS AS A CONSUMER TO THE EXTENT NOT PERMITTED UNDER THE LAW IN THE JURISDICTION OF YOUR PLACE OF RESIDENCE.\n
+
+LIMITATION OF LIABILITY\n
+
+WayToGo SHALL NOT BE LIABLE TO YOU FOR INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, LOST DATA, PERSONAL INJURY, OR PROPERTY DAMAGE, EVEN IF WayToGo HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. WayToGo SHALL NOT BE LIABLE FOR ANY DAMAGES, LIABILITY OR LOSSES INCURRED BY YOU ARISING OUT OF: (i) YOUR USE OF OR RELIANCE ON THE SERVICES OR YOUR INABILITY TO ACCESS OR USE THE SERVICES; OR (ii) ANY TRANSACTION OR RELATIONSHIP BETWEEN YOU AND ANY THIRD PARTY PROVIDER, EVEN IF WayToGo HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. WayToGo SHALL NOT BE LIABLE FOR DELAY OR FAILURE IN PERFORMANCE RESULTING FROM CAUSES BEYOND WayToGo\'S REASONABLE CONTROL. YOU ACKNOWLEDGE THAT THIRD PARTY TRANSPORTATION PROVIDERS PROVIDING TRANSPORTATION SERVICES REQUESTED THROUGH WayToGo MAY OFFER WayToGoSHARING OR PEER-TO-PEER TRANSPORTATION SERVICES AND MAY NOT BE PROFESSIONALLY LICENSED OR PERMITTED. IN NO EVENT SHALL WayToGo\'S TOTAL LIABILITY TO YOU IN CONNECTION WITH THE SERVICES FOR ALL DAMAGES, LOSSES AND CAUSES OF ACTION EXCEED FIVE HUNDRED U.S. DOLLARS (US $500).\n
+
+THESE LIMITATIONS DO NOT PURPORT TO LIMIT LIABILITY THAT CANNOT BE EXCLUDED UNDER THE LAW IN THE JURISDICTION OF YOUR PLACE OF RESIDENCE.\n
+
+INDEMNITY\n
+
+You agree to indemnify and hold WayToGo and its officers, directors, employees and agents, harmless from any and all claims, demands, losses, liabilities, and expenses (including attorneys\' fees), arising out of or in connection with: (i) your use of the Services; (ii) your breach or violation of any of these Terms; (iii) WayToGo\'s use of your User Content; or (iv) your violation of the rights of any third party, including Third Party Providers.\n
+
+DISPUTE RESOLUTION\n
+
+ARBITRATION\n
+
+You agree that any dispute, claim or controversy arising out of or relating to these Terms or the breach, termination, enforcement, interpretation or validity thereof or the use of the Services (collectively, "Disputes") will be settled by binding arbitration between you and WayToGo, except that each party retains the right to bring an individual action in small claims court and the right to seek injunctive or other equitable relief in a court of competent jurisdiction to prevent the actual or threatened infringement, misappropriation or violation of a party\'s copyrights, trademarks, trade secrets, patents or other intellectual property rights. You acknowledge and agree that you and WayToGo are each waiving the right to a trial by jury or to participate as a plaintiff or class in any purported class action or representative proceeding. Further, unless both you and WayToGo otherwise agree in writing, the arbitrator may not consolidate more than one person\'s claims, and may not otherwise preside over any form of any class or representative proceeding. If this specific paragraph is held unenforceable, then the entirety of this "Dispute Resolution" section will be deemed void. Except as provided in the preceding sentence, this "Dispute Resolution" section will survive any termination of these Terms.\n
+
+ARBITRATION RULES AND GOVERNING LAW\n
+
+The arbitration will be administered by the American Arbitration Association ("AAA") in accordance with the Commercial Arbitration Rules and the Supplementary Procedures for Consumer Related Disputes (the "AAA Rules") then in effect, except as modified by this "Dispute Resolution" section. (The AAA Rules are available at www.adr.org/arb_med or by calling the AAA at 1-800-778-7879.) The Federal Arbitration Act will govern the interpretation and enforcement of this Section.\n
+
+ARBITRATION PROCESS\n
+
+A party who desires to initiate arbitration must provide the other party with a written Demand for Arbitration as specified in the AAA Rules. (The AAA provides a form Demand for Arbitration at www.adr.org/aaa/ShowPDF?doc=ADRSTG_004175 and a separate form for California residents at www.adr.org/aaa/ShowPDF?doc=ADRSTG_015822.) The arbitrator will be either a retired judge or an attorney licensed to practice law in the state of California and will be selected by the parties from the AAA\'s roster of consumer dispute arbitrators. If the parties are unable to agree upon an arbitrator within seven (7) days of delivery of the Demand for Arbitration, then the AAA will appoint the arbitrator in accordance with the AAA Rules.\n
+
+ARBITRATION LOCATION AND PROCEDURE\n
+
+Unless you and WayToGo otherwise agree, the arbitration will be conducted in the county where you reside. If your claim does not exceed $10,000, then the arbitration will be conducted solely on the basis of documents you and WayToGo submit to the arbitrator, unless you request a hearing or the arbitrator determines that a hearing is necessary. If your claim exceeds $10,000, your right to a hearing will be determined by the AAA Rules. Subject to the AAA Rules, the arbitrator will have the discretion to direct a reasonable exchange of information by the parties, consistent with the expedited nature of the arbitration.\n
+
+ARBITRATOR\'S DECISION\n
+
+The arbitrator will render an award within the time frame specified in the AAA Rules. The arbitrator\'s decision will include the essential findings and conclusions upon which the arbitrator based the award. Judgment on the arbitration award may be entered in any court having jurisdiction thereof. The arbitrator\'s award damages must be consistent with the terms of the "Limitation of Liability" section above as to the types and the amounts of damages for which a party may be held liable. The arbitrator may award declaratory or injunctive relief only in favor of the claimant and only to the extent necessary to provide relief warranted by the claimant\'s individual claim. If you prevail in arbitration you will be entitled to an award of attorneys\' fees and expenses, to the extent provided under applicable law. WayToGo will not seek, and hereby waives all rights WayToGo may have under applicable law to recover, attorneys\' fees and expenses if WayToGo prevail in arbitration.\n
+
+FEES\n
+
+Your responsibility to pay any AAA filing, administrative and arbitrator fees will be solely as set forth in the AAA Rules. However, if your claim for damages does not exceed $75,000, WayToGo will pay all such fees unless the arbitrator finds that either the substance of your claim or the relief sought in your Demand for Arbitration was frivolous or was brought for an improper purpose (as measured by the standards set forth in Federal Rule of Civil Procedure 11(b)).\n
+
+CHANGES\n
+
+Notwithstanding the provisions of the modification-related provisions above, if Company changes this "Dispute Resolution" section after the date you first accepted these Terms (or accepted any subsequent changes to these Terms), you may reject any such change by providing WayToGo written notice of such rejection by email to: along with the email address associated with your Account to: admin@WayToGo.com, within 30 days of the date such change became effective, as indicated in the "Last update" date above. In order to be effective, the notice must include your full name and clearly indicate your intent to reject changes to this "Dispute Resolution" section. By rejecting changes, you are agreeing that you will arbitrate any Dispute between you and WayToGo in accordance with the provisions of this "Dispute Resolution" section as of the date you first accepted these Terms (or accepted any subsequent changes to these Terms).\n
+
+OTHER PROVISIONS\n
+
+CHOICE OF LAW\n
+
+These Terms are governed by and construed in accordance with the laws of the State of California, U.S.A., without giving effect to any conflict of law principles.\n
+
+CLAIMS OF COPYRIGHT INFRINGEMENT\n
+
+Claims of copyright infringement should be sent to WayToGo\'s designated agent. Please contact admin@WayToGo.com for more information.\n
+
+GENERAL\n
+
+You may not assign these Terms without WayToGo\'s prior written approval. WayToGo may assign these Terms without your consent to: (i) a subsidiary or affiliate; (ii) an acquirer of WayToGo\'s equity, business or assets; or (iii) a successor by merger. Any purported assignment in violation of this section shall be void. No joint venture, partnership, employment, or agency relationship exists between you, WayToGo or any Third Party Provider as a result of this Agreement or use of the Services. If any provision of these Terms is held to be invalid or unenforceable, such provision shall be struck and the remaining provisions shall be enforced to the fullest extent under law. Our failure to enforce any right or provision in these Terms shall not constitute a waiver of such right or provision unless acknowledged and agreed to by WayToGo in writing.\n</string>
+    <string name="tv_disclosure">DMV check, background check consent &amp; other Consent to Request Driving Record\n\n
+I understand that Ride, Inc. (\'Company\') will use American Driving Records, Inc., (\'ADR\') to obtain a motor vehicle record as part of the application process to be a driver on the Ride Platform (a
+\'Driver\'). I also understand that if accepted as a Driver, to the extent permitted by law, Company may obtain further Reports from ADR so as to update, renew or extend my status as a Driver. I hereby give permission to Ride to obtain my state driving record (also known as my motor vehicle record or MVR) in accordance with the Federal Driver\'s Privacy Protection Act (\'DPPA\') and applicable state law. I acknowledge and understand that my driving record is a consumer report that contains public record information. I authorize, without reservation any party or agency contacted by Company or ADR to furnish Company a copy of my state driving record. This authorization shall remain on file by Company for the duration of my time as a Driver, and will serve as ongoing authorization for Company to procure my state driving record at any time while I am a Driver.\n\n
+I understand that Ride, Inc. (\'Company\') will use their private background check service in order to obtain a consumer report or investigative consumer report as part of the application process to be a driver on the Ride Platform (a \'Driver\'). I also understand that if accepted as a Driver, to the extent permitted by law, Company may obtain further Reports so as to update, renew or extend my status as a Driver.\n\n
+I understand that the team of Ride Apps investigation may include obtaining information regarding my criminal record, subject to any limitations imposed by applicable federal and state law. I understand such information may be obtained through direct or indirect contact with public agencies or other persons who may have such knowledge.
+The nature and scope of the investigation sought will include a Criminal Background check and SSN Trace.\n\n
+I acknowledge receipt of the attached summary of my rights under the Fair Credit Reporting Act and, as required by law, any related state summary of rights (collectively “Summaries of Rights”).
+I understand that Ride has reserved the right to deny my application without a provided reason to why. I hereby consent to this investigation and authorize Company to procure a Report on my background.
+In order to verify my identity for the purposes of Report preparation, I am voluntarily releasing my date of birth, social security number and the other information and fully understand that all decisions are based on legitimate non-discriminatory reasons.\n\n
+I understand that Ride is only a way for me (myself) to advertise my services as a driver. I also understand that I am just using Ride\'s service. I understand I have the right to visually inspect the files concerning me by contacting support and requesting a copy of the files. The inspection can also be done via certified mail if I make a written request, with proper identification, for copies to be sent to a specified addressee. I further understand that the investigative consumer reporting agency shall provide trained personnel to explain to me any of the information furnished to me; I shall receive from the investigative consumer reporting agency a written explanation of any coded information contained in files maintained on me. “Proper identification” as used in this paragraph means information generally deemed sufficient to identify a person, including documents such as a valid driver\'s license, social security account number, military identification card and credit cards.
+A Summary of Your Rights Under the Fair Credit Reporting Act\n\n
+The federal Fair Credit Reporting Act (FCRA) promotes the accuracy, fairness, and privacy of information in the files of consumer reporting agencies. There are many types of consumer reporting agencies, including credit bureaus and specialty agencies (such as agencies that sell information about check writing histories, medical records, and rental history records). Here is a summary of your major rights under the FCRA. For more information, including information about additional rights, go to www.consumerfinance.gov/learnmore or write to:
+Consumer Financial Protection Bureau\n\n 1700 G Street NW, Washington, DC 20552\n\n You must be told if information in your file has been used against you. Anyone who uses a credit report or another type of consumer report to deny your application for credit, insurance, or employment – or to take another adverse action against you – must tell you, and must give you the name, address, and phone number of the agency that provided the information. You have the right to know what is in your file. You may request and obtain all the information about you in the files of a consumer reporting agency (your “file disclosure”). You will be required to provide proper identification, which may include your Social Security number. In many cases, the disclosure will be free. You are entitled to a free file disclosure if:\n\n
+a person has taken adverse action against you because of information in your credit report; you are the victim of identify theft and place a fraud alert in your file;\n\n your file contains inaccurate information as a result of fraud;\n\n you are on public assistance;\n\n
+you are unemployed but expect to apply for employment within 60 days.\n\n In addition, all consumers are entitled to one free disclosure every 12 months upon request from each nationwide credit bureau and from nationwide specialty consumer reporting agencies. See www.consumerfinance.gov/learnmore for additional information.\n\n
+You have the right to ask for a credit score. Credit scores are numerical summaries of your credit- worthiness based on information from credit bureaus. You may request a credit score from consumer reporting agencies that create scores or distribute scores used in residential real property loans, but you will have to pay for it. In some mortgage transactions, you will receive credit score information for free from the mortgage lender.\n\n
+You have the right to dispute incomplete or inaccurate information. If you identify information in your file that is incomplete or inaccurate, and report it to the consumer reporting agency, the agency must investigate unless your dispute is frivolous. See www.consumerfinance.gov/learnmore for an explanation of dispute procedures. Consumer reporting agencies must correct or delete inaccurate, incomplete, or unverifiable information. Inaccurate, incomplete or unverifiable information must be removed or corrected, usually within 30 days. However, a consumer reporting agency may continue to report information it has verified as accurate. Consumer reporting agencies may not report outdated negative information. In most cases, a consumer reporting agency may not report negative information that is more than seven years old, or bankruptcies that are more than 10 years old.\n\n Access to your file is limited. A consumer reporting agency may provide information about you only to people with a valid need – usually to consider an application with a creditor, insurer, employer, landlord, or other business. The FCRA specifies those with a valid need for access.\n\n You must give your consent for reports to be provided to employers. A consumer reporting agency may not give out information about you to your employer, or a potential employer, without your written consent given to the employer. Written consent generally is not required in the trucking industry. For more information, go to www.consumerfinance.gov/learnmore You may limit “prescreened” offers of credit and insurance you get based on information in your credit report. Unsolicited “prescreened” offers for credit and insurance must include a toll-free phone
+number you can call if you choose to remove your name and address from the lists these offers are based on. You may opt-out with the nationwide credit bureaus at 1-888-567-8688. You may seek damages from violators. If a consumer reporting agency, or, in some cases, a user of consumer reports or a furnisher of information to a consumer reporting agency violates the FCRA, you may be able to sue in state or federal court.\n\n
+Identity theft victims and active duty military personnel have additional rights. For more information, visit www.consumerfinance.gov/learnmore. States may enforce the FCRA, and many states have their own consumer reporting laws. In some cases, you may have more rights under state law. For more information, contact your state or local consumer protection agency or your state Attorney General. For information about your federal rights, contact: Type of business Contact\n\n 1. a. Banks, savings associations, and credit unions with total assets of over $10 billion and their affiliates. a. Consumer Financial Protection Bureau 1700 G Street NW, Washington, DC 20552\n\n b. Such affiliates that are not banks, savings associations, or credit unions also should list, in addition to the CFPB: b. Federal Trade Commission: Consumer Response Center – FCRA Washington, DC 20580\n\n 877-382-4357 2. To the extent not included in item 1 above:\n\n a. National banks, federal savings associations, and federal branches and federal agencies of foreign banks a. Office of the Comptroller of the Currency Customer Assistance Group 1301 McKinney Street Suite 3450, Houston, TX 77010-9050\n\n b. State member banks, branches and agencies of foreign banks (other than federal branches, federal agencies, and Insured State Branches of Foreign Banks), commercial lending companies owned or controlled by foreign banks, and organizations operating under section 25 or 25A of the Federal Reserve Act b. Federal Reserve Consumer Help Center P.O. Box 1200 Minneapolis, MN 55480\n\n c. Nonmember Insured Banks, Insured State Branches of Foreign Banks, and insured state savings associations c. FDIC Consumer Response Center 1100 Walnut Street Box #11, Kansas City, MO 64106\n\n d. Federal Credit Unions d. National Credit Union Administration Office of Consumer Protection (OCP), Division of Consumer Compliance and Outreach (DCCO) 1775 Duke Street, Alexandria, VA 22314\n\n 3. Air carriers Asst. General Counsel for Aviation Enforcement &amp; Proceedings Aviation Consumer Protection Division Department of Transportation 1200 New Jersey Avenue SE, Washington, DC 20590\n\n 4. Creditors Subject to Surface Transportation Board Office of Proceedings, Surface Transportation Board, Department of Transportation 395 E Street SW, Washington, DC 20423\n\n 5. Creditors Subject to Packers and Stockyards Act, 1921 Nearest Packers and Stockyards Administration area supervisor\n\n 6. Small Business Investment Companies Associate Deputy Administrator for Capital Access, United States Small Business Administration 409 Third Street SW 8th Floor, Washington, DC 20416\n\n 7. Brokers and Dealers Securities and Exchange Commission 100 F St NE, Washington, DC 20549\n\n 8. Federal Land Banks, Federal Land Bank Associations, Federal Intermediate Credit Banks, and Production Credit Associations Farm Credit Administration, 1501 Farm Credit Drive, McLean, VA 22102-5090\n\n 9. Retailers, Finance Companies, and All Other Creditors Not Listed Above FTC Regional Office for region in which the creditor operates or Federal Trade Commission: Consumer Response Center – FCRA, Washington, DC 20580\n\n 877-382-4357\n\n</string>
+
+</resources>

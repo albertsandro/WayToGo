@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rider.MainActivity" >
+
+    <fragment
+        android:id="@+id/map_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+    <RelativeLayout
+        android:id="@+id/rl_destination"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:id="@+id/rl_address"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_map_address_bg" >
+
+            <TextView
+                android:id="@+id/tv_to_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/tv_food_to"
+                android:textColor="@color/tv_label" />
+
+            <ImageView
+                android:id="@+id/iv_search"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:src="@drawable/ic_search" />
+
+            <EditText
+                android:id="@+id/edt_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_to_from"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/iv_search"
+                android:layout_toLeftOf="@+id/iv_cancel"
+                android:layout_toRightOf="@+id/iv_search"
+                android:layout_toStartOf="@+id/iv_cancel"
+                android:hint="@string/edt_from_address"
+                android:imeOptions="actionGo"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@color/tv_address" />
+
+            <ImageView
+                android:id="@+id/iv_cancel"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:src="@drawable/ic_remove" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_pick"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/rl_address"
+            android:background="#514F4F"
+            android:gravity="center"
+            android:text="@string/btn_pick"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

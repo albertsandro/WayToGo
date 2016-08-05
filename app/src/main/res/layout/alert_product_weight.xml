@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_stacks"
+        android:layout_width="130dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_stacks" />
+
+    <TextView
+        android:id="@+id/tv_estimated_weight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_stacks"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="@string/tv_estimated_weight"
+        android:textColor="#737373"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/edt_weight"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_estimated_weight"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_edittext_bg"
+        android:gravity="center"
+        android:hint="@string/edt_weight"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLines="1" />
+
+    <ImageButton
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_weight"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:background="@null"
+        android:contentDescription="@string/strConfirmPickup"
+        android:src="@drawable/ic_btn_confirm_pickup" />
+
+    <ImageButton
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnOk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@null"
+        android:contentDescription="@string/strcancel"
+        android:src="@drawable/ic_btn_cancel" />
+
+</RelativeLayout>

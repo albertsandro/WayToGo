@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    <color name="colorPrimary">#333F4F</color>
+    <color name="colorPrimaryDark">#19222D</color>
+    -->
+
+    <color name="colorPrimary">#FFAA00</color>
+    <color name="colorPrimaryDark">#D98F13</color>
+    <color name="textColorPrimary">#000000</color>
+    <color name="colorAccent">#47576B</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <!-- navigation -->
+    <color name="drawer_list_item_title">#000000</color>
+
+    <!-- TextColor -->
+    <color name="tv_label">#212121</color>
+    <color name="tv_lbl">#525559</color>
+    <color name="tv_address">#FFAA00</color>
+    <color name="divider">#6F6F6F</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#CE1616</color>
+    <color name="circular_border">#E0E0E0</color>
+    <color name="courier_photo_title_bg">#80000000</color>
+    <color name="courier_photo_title">#D3D3D3</color>
+    <color name="button_bg">#FFAA00</color>
+
+    <!--  -->
+    <color name="red_light">#ffff4444</color>
+    <color name="green_light">#ff99cc00</color>
+    <color name="orange_light">#ffffbb33</color>
+    <color name="blue_light">#ff33b5e5</color>
+
+</resources>

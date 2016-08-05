@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_profile_bg" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edt_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/ic_edittext_bg"
+            android:hint="@string/edt_full_name"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/edt_security_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_full_name"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/ic_edittext_bg"
+            android:drawableLeft="@drawable/ic_ssn"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_ssn"
+            android:hint="@string/edt_security_number"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+        <LinearLayout
+            android:id="@+id/dob"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_security_number"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/edt_dob"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".9"
+                android:background="@drawable/ic_edittext_bg"
+                android:clickable="false"
+                android:enabled="false"
+                android:hint="@string/edt_dob"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingEnd="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingStart="5dp" />
+
+            <ImageButton
+                android:id="@+id/iv_dob"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".1"
+                android:background="@null"
+                android:src="@drawable/ic_date" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edt_license_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dob"
+            android:background="@drawable/ic_edittext_bg"
+            android:drawableLeft="@drawable/ic_license"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_license"
+            android:hint="@string/edt_license_number"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1" />
+
+        <ImageButton
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@null"
+            android:contentDescription="@string/strphonelogin"
+            android:src="@drawable/ic_btn_next" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_profile_pic"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#DD000000"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_profile_pic_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:text="@string/tv_profile_pic_title"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_driver_profile"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_above="@+id/tv_profile_pic_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/ic_placeholder" />
+
+        <ImageButton
+            android:id="@+id/btn_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_profile_pic_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="25dp"
+            android:background="@null"
+            android:contentDescription="@string/strphonelogin"
+            android:src="@drawable/ic_yes_button" />
+
+        <ImageButton
+            android:id="@+id/btn_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_yes"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="25dp"
+            android:background="@null"
+            android:contentDescription="@string/strphonelogin"
+            android:src="@drawable/ic_no_button" />
+    </RelativeLayout>
+
+</RelativeLayout>

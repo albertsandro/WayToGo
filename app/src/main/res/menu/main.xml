@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rider.MainActivity" >
+
+    <item
+        android:id="@+id/action_gift"
+        android:icon="@drawable/ic_presenticon"
+        android:orderInCategory="100"
+        android:title="@string/action_gift"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_steeringwheel_inactive"
+        android:icon="@drawable/ic_steeringwheel_inactive"
+        android:orderInCategory="100"
+        android:title="@string/action_steeringwheel_inactive"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_steeringwheel_active"
+        android:icon="@drawable/ic_steeringwheel_active"
+        android:orderInCategory="100"
+        android:title="@string/action_steeringwheel_active"
+        app:showAsAction="always"/>
+
+</menu>

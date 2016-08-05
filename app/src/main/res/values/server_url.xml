@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    <string name="base_url">http://ec2-52-27-215-176.us-west-2.compute.amazonaws.com/ws/%s</string>
+    <string name="strDriverBaseImageUrl">http://ec2-52-27-215-176.us-west-2.compute.amazonaws.com/ws/images/profile/original/</string>
+    <string name="strDriverThumbImageUrl">http://ec2-52-27-215-176.us-west-2.compute.amazonaws.com/ws/images/profile/thumb/</string>
+    <string name="strCarImageUrl">http://ec2-52-27-215-176.us-west-2.compute.amazonaws.com/ws/images/drivercars/</string>
+    -->
+
+    <string name="base_url">http://ec2-52-33-255-125.us-west-2.compute.amazonaws.com/ws/%s</string>
+    <string name="google_api_base_url">https://maps.googleapis.com/maps/api/%s</string>
+    <string name="strDriverBaseImageUrl">http://ec2-52-33-255-125.us-west-2.compute.amazonaws.com/ws/images/profile/original/</string>
+    <string name="strDriverThumbImageUrl">http://ec2-52-33-255-125.us-west-2.compute.amazonaws.com/ws/images/profile/thumb/</string>
+    <string name="GetCourierUrl">http://ec2-52-33-255-125.us-west-2.compute.amazonaws.com/ws/images/courierInfo/</string>
+    <string name="strCarImageUrl">user/testPic?</string>
+    <string name="strCarRegUrl">user/testPic?</string>
+    <string name="strCarInsUrl">user/testPic?</string>
+    <string name="SMSVerfication">user/SMSVerificationSweden?</string>
+    <string name="GetUserEmail">user/getUserEmailViaPhone?</string>
+    <string name="SMSVerifiedPhone">user/SMSVerifiedPhone?</string>
+    <string name="AddAccessToken">user/adddevicedoken?</string>
+    <string name="Login">login?</string>
+    <string name="Registration">registration?</string>
+    <string name="GoogleApiGeocode">geocode/json?</string>
+    <string name="GooglePlacesApi">place/autocomplete/json?</string>
+    <string name="FeedAdd">user/feedAdd?</string>
+    <string name="DriverProfileRegistration">user/editprofile?</string>
+    <string name="DriverVehicleRegistration">user/applicationAddValues?</string>
+    <string name="UpdateDriver">user/updateApplicationStatusPending?</string>
+    <string name="FeedList">user/feedList?</string>
+    <string name="UserDeleteRide">user/deleteRide?</string>
+    <string name="UpdateDriverStatus">user/driverstatus?</string>
+    <string name="DriverCurrentLocation">user/driverCurrentLocation?</string>
+    <string name="DriverFeedList">user/driverFeedList?</string>
+    <string name="SelectNearestDriver">user/selectnearestdriver?</string>
+    <string name="GetLatestInfo">user/getLatestInfo?</string>
+    <string name="UpdateBookingStatus">user/updateBookingStatus?</string>
+    <string name="GetUsernamefromiUserID">user/getUsernamefromiUserID?</string>
+    <string name="GetFromAddress">user/getInfoForPopUp?</string>
+    <string name="AcceptedRide">user/acceptedRide?</string>
+    <string name="GetFeed">user/getFeed?</string>
+    <string name="DriverTripLocation">user/driverLocation?</string>
+    <string name="PickedUpRide">user/pickedupRide?</string>
+    <string name="GetDriverEarnings">user/getDriverEarnings?</string>
+    <string name="UpdateDriverEarnings">user/updateDriverEarnings?</string>
+    <string name="CompletedRide">user/completedRide?</string>
+    <string name="GetDriver">user/getDriver?</string>
+    <string name="UpdateBalance">user/updateBalance?</string>
+    <string name="Report">report?</string>
+    <string name="FeedBack">user/feedback?</string>
+    <string name="CheckBalance">user/checkBalance?</string>
+    <string name="UploadCourierImage">user/uploadCourierPic?</string>
+    <string name="ChkTripCancelled">user/isitcanceled?</string>
+    <string name="UpdateUserToken">user/updateUserToken?</string>
+    <string name="UpdateLastFourDigits">user/updatelastfourdigits?</string>
+    <string name="UpdateTokenSweden">user/updateTokenSweden?</string>
+    <string name="UpdateToken">user/updateToken?</string>
+    <string name="UpdatePaypalAddress">user/updatePaypalAddress?</string>
+    <string name="UpdateBankInfo">user/updateDriverBank?</string>
+    <string name="GetFBUser">user/getuserdatabyfbid?</string>
+
+</resources>

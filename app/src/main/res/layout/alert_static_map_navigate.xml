@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.rider.PhoneLoginActivity" >
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_user_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_profile_pic" />
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:lines="1"
+            android:textColor="@color/tv_label"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_static_map"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/ll_top"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_static_map"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="#737373"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/btnNavigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_address"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@null"
+        android:contentDescription="@string/strConfirmPickup"
+        android:src="@drawable/ic_navigate" />
+
+    <ImageButton
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnNavigate"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:background="@null"
+        android:contentDescription="@string/strcancel"
+        android:src="@drawable/ic_btn_cancel" />
+
+</RelativeLayout>
